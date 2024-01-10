@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+h1, h2 {
+    border-bottom: 2px solid #956ad0; /* Greenish bottom border for headings */
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #ffffff; /* Greenish color for main heading */
+}
+
+h2 {
+    color: #ffffff; /* Yellowish color for course titles */
+    margin-top: 30px; /* Spacing above course titles */
+}
+
+h3{
+    color: #956ad0;
+}
+
+.course , .toc {
+    background-color: #1e1e1e; /* Slightly lighter dark background for course blocks */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners for course blocks */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Spacing below each course block */
+}
+
+a{
+    color: rgb(79, 140, 255);
+    text-decoration: none;
+}
+
+.disclaimer {
+    color: red;
+}
+
+strong {
+    color: #ffffff;
+}
+
+/* Table of Contents Styles */
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc li {
+    margin: 15px 0;
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Apply other styles as needed for your TOC */
